@@ -1,0 +1,109 @@
+.layer--side--color {
+  background-color: var(--main--body-color--form);
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: relative;
+}
+
+.picture--div--css-dashboard {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+}
+
+
+.layer--side--other {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.icone-change svg {
+  font-size: 30px;
+  color: var(--white--backgroud--color);
+}
+
+.active-icone::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -10px;
+  background-color: var(--white--backgroud--color);
+  width: 70px;
+  padding: 20px 30px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.active-icone::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  right: -31px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: var(--main--body-color--form);
+  width: 8px;
+  height: 40px;
+  z-index: 999;
+}
+
+.active-icone svg {
+  position: relative;
+  z-index: 9999;
+  color: black;
+}
+
+.displatname-css {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+}
+
+.displatname-css p{
+    font-size: 1.4em ;
+    color: white;
+    font-weight: 700;
+}
+
+
+.picture--div--css-dashboard { 
+    border-radius: 50%;
+    
+}
+
+.picture--div--css-dashboard:hover ,
+.upload--icone:hover {
+    background-color: rgba(0, 0, 0, 0.196);
+    opacity: 1;
+}
+
+.picture--div--css-dashboard img{
+  position: relative;
+}
+
+
+
+.upload--icone{
+    position: absolute;
+    top: 10%;
+    left: 50%;    
+    transform: translateX(-50%);  
+    opacity: 0;
+}
+
+.upload--icone svg{
+    fill: #fff;
+    font-size: 20px;
+}
+

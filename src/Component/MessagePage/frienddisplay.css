@@ -1,0 +1,17 @@
+.message-class-css {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+  }
+  
+  .message-class-css:last-child{
+      border-bottom: 0px;
+  }
+  
+  .message-class-css p {
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 20px;
+  }

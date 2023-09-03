@@ -1,0 +1,80 @@
+.message-bottom--css {
+  height: 20vh;
+}
+
+.icone-pic{
+ margin-left: 5px;
+}
+
+.icone-pic svg{
+    width: 30px;
+    height: 30px;
+}
+
+.add-comment {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.add-comment .profile-pic {
+  background-size: cover;
+  border-radius: 50%;
+  height: 30px;
+  margin-right: 10px;
+  width: 30px;
+}
+
+.add-comment .comment-input {
+  border: 2px solid #eaecf1;
+  border-radius: 10px;
+  color: #324152;
+  height: 50px;
+  width: 80%;
+  padding: 15px 25px;
+  position: relative;
+  resize: none;
+  scrollbar-width: none;
+}
+
+.add-comment .comment-input::-webkit-input-placeholder {
+  color: #324152;
+}
+
+.add-comment .comment-input:-ms-input-placeholder {
+  color: #324152;
+}
+
+.add-comment .comment-input::placeholder {
+  color: #324152;
+}
+
+.add-comment .comment-input::-webkit-scrollbar {
+  width: 0;
+}
+
+.add-comment .comment-input:focus {
+  outline: 1.5px solid #67727e;
+}
+
+.add-comment .send-btn-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-comment .add-btn {
+  background: #5457b6;
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 12px 20px;
+  text-transform: uppercase;
+  transition: 0.3s;
+}

@@ -1,0 +1,8 @@
+.btn-MainList--css {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-MainList--css button {
+  margin-bottom: 4px;
+}

@@ -1,0 +1,26 @@
+.box--css--svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box--css--svg svg {
+  font-size: 30px;
+}
+
+.image--modal--css{
+  /* position: relative; */
+  width: 600px;
+  height: 350px;
+}
+
+.image--modal--css img{
+ width: 100%;
+ height: 70%;
+ object-fit:contain;
+}
+
+.cropper-wrap-box, .cropper-canvas, .cropper-drag-box, .cropper-crop-box, .cropper-modal {
+ 
+  top: -23px !important;
+}
